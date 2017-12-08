@@ -1,0 +1,90 @@
+[____BOOLEANS____]
+
+	[general]
+	[cfg#]	
+
+	PullDats=1 [automatically import any missing dats to folder]
+	Echo=0 [turn on echo; auto-set 1 if either DevLog variable is set 1]
+
+	[folder skips] --take precedence over associated [tool on folder skips] variables
+	[cfg#Skip]
+
+	000Skip=0 [0 folder]
+	001Skip=1
+	100Skip=1 [1 folder]
+	101Skip=1
+	d1Skip=1 [data1]
+	c0Skip=1 [chunks]
+	c1Skip=1
+	c2Skip=1
+	c3Skip=1
+	c4Skip=1
+	t0Skip=1 [textures]
+	t1Skip=1
+	t2Skip=1
+	t3Skip=1
+	t4Skip=1
+	
+	[tool skips]
+	[cfg#]
+
+	DatSkip=0 [don't unpack dat files]
+	FpkSkip=1 [don't unpack fpk, pftxs, or sbp files]
+	FoxSkip=1 [don't run FoxTool.exe]
+	LangSkip=1 [don't unpack localization files (.lng, .subp, .ffnt)]
+	DdsSkip=1 [don't run FtexTool.exe]
+	
+		[tool on folder skips] --auto-set 1 if associated [folder skips] var set 1
+		[cfg#_#Skip]		
+
+		Dat_000Skip=0
+		Dat_001Skip=0
+		Dat_100Skip=0
+		Dat_101Skip=0
+		Dat_d1Skip=0
+		Dat_c0Skip=0
+		Dat_c1Skip=0
+		Dat_c2Skip=0
+		Dat_c3Skip=0
+		Dat_c4Skip=0
+		Dat_t0Skip=0
+		Dat_t1Skip=0
+		Dat_t2Skip=0
+		Dat_t3Skip=0
+		Dat_t4Skip=0
+
+		Fpk_000Skip=0
+		Fpk_100Skip=0
+		Fpk_c0Skip=0
+		Fpk_c1Skip=0
+		Fpk_c2Skip=0
+		Fpk_c3Skip=0
+		Fpk_c4Skip=0
+
+		Fox_000Skip=0
+		Fox_100Skip=0
+		Fox_c0Skip=0
+		Fox_c1Skip=0
+		Fox_c2Skip=0
+		Fox_c3Skip=0
+		Fox_c4Skip=0
+
+		Lang_000Skip=0
+		Lang_d1Skip=0
+		Lang_c0Skip=0
+		Lang_c2Skip=0
+		Lang_c3Skip=0
+		Lang_c4Skip=0
+
+		Dds_000Skip=0
+		Dds_001Skip=0
+		Dds_100Skip=0
+		Dds_101Skip=0
+		Dds_c0Skip=0
+		Dds_t0Skip=0
+		Dds_t1Skip=0
+		Dds_t2Skip=0
+		Dds_t3Skip=0
+		Dds_t4Skip=0
+
+[____FLAGS____]

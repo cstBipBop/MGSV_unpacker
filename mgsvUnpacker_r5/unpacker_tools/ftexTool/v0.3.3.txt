@@ -1,0 +1,17 @@
+Note: This is a prerelease build. If you encounter issues submit a bug report to the GitHub page and/or revert to v0.3.2.
+Date: April 02, 2017
+Source: https://github.com/Atvaark/FtexTool/releases
+To report a bug: https://github.com/Atvaark/FtexTool/issues
+
+Atvaark released this on Dec 17, 2016
+
+Changes in v0.3.3
+	Added experimental volume texture support for A8R8G8B8 images.
+
+Features
+	Converting ftex files to dds
+	Converting dds to ftex
+	Converting all ftex files in a directory to .dds
+
+Remarks
+	Use GzsTool for unpacking and repacking pftxs files

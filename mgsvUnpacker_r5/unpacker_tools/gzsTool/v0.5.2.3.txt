@@ -1,0 +1,14 @@
+Date: April 02, 2017
+Source: https://github.com/Atvaark/GzsTool/releases
+
+Atvaark released this on May 13, 2016
+
+Changes in v0.5.2.3
+	Fixed writing output files relative to the working directory (issue #4)
+
+Features:
+	Unpacking dat/fpk/fpkd/pftxs/sbp archives
+	Repacking dat/fpk/fpkd/pftxs/sbp archives
+
+Remarks:
+	Changing the file encyption key and reencrypting in dat files is not yet supported

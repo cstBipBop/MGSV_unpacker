@@ -1,0 +1,10 @@
+Date: April 02, 2017
+Source: https://github.com/Atvaark/FoxEngine.TranslationTool/releases
+
+Atvaark released this on Dec 26, 2016 · 2 commits to master since this release
+
+Changelog v0.2.5
+	SubpTool Added XML input validation. Errors such as a missing or misplaced -Elements will now result in an error.
+
+Features:
+	Unpacking and repacking ffnt, lng, lng2 and subp files

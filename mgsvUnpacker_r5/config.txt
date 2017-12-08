@@ -10,29 +10,29 @@
 	[cfg#Skip]
 
 	000Skip=0 [0 folder]
-	001Skip=1
-	100Skip=1 [1 folder]
-	101Skip=1
-	d1Skip=1 [data1]
-	c0Skip=1 [chunks]
-	c1Skip=1
-	c2Skip=1
-	c3Skip=1
-	c4Skip=1
-	t0Skip=1 [textures]
-	t1Skip=1
-	t2Skip=1
-	t3Skip=1
-	t4Skip=1
+	001Skip=0
+	100Skip=0 [1 folder]
+	101Skip=0
+	d1Skip=0 [data1]
+	c0Skip=0 [chunks]
+	c1Skip=0
+	c2Skip=0
+	c3Skip=0
+	c4Skip=0
+	t0Skip=0 [textures]
+	t1Skip=0
+	t2Skip=0
+	t3Skip=0
+	t4Skip=0
 	
 	[tool skips]
 	[cfg#]
 
 	DatSkip=0 [don't unpack dat files]
-	FpkSkip=1 [don't unpack fpk, pftxs, or sbp files]
-	FoxSkip=1 [don't run FoxTool.exe]
-	LangSkip=1 [don't unpack localization files (.lng, .subp, .ffnt)]
-	DdsSkip=1 [don't run FtexTool.exe]
+	FpkSkip=0 [don't unpack fpk, pftxs, or sbp files]
+	FoxSkip=0 [don't run FoxTool.exe]
+	LangSkip=0 [don't unpack localization files (.lng, .subp, .ffnt)]
+	DdsSkip=0 [don't run FtexTool.exe]
 	
 		[tool on folder skips] --auto-set 1 if associated [folder skips] var set 1
 		[cfg#_#Skip]		

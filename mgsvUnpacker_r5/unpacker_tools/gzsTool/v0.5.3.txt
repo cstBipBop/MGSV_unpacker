@@ -1,0 +1,13 @@
+Source: https://github.com/Atvaark/GzsTool/releases
+
+Atvaark released this on May 21, 2017
+
+Changes in v0.5.3
+	Fixed repacking MGSV TPP chunk0.dat (issue #5)
+
+Features:
+	Unpacking dat/fpk/fpkd/pftxs/sbp archives
+	Repacking dat/fpk/fpkd/pftxs/sbp archives
+
+Remarks:
+	Changing the file encyption key and reencrypting in dat files is not yet supported

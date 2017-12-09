@@ -1,0 +1,30 @@
+Date: April 02, 2017
+Source: https://github.com/Atvaark/FoxTool/releases
+
+Atvaark released this on Sep 17, 2017
+
+Changelog v0.2.5
+	Fixed an issue where texts were decoded incorrectly
+
+Features:
+	Decompiling these files to .fox (XML)
+		.bnd
+		.clo
+		.des
+		.evf
+		.fox2
+		.fsd
+		.lad
+		.parts
+		.ph
+		.phsd
+		.sdf
+		.sim
+		.tgt
+		.vdp
+		.veh
+		.vfxlf
+	Compiling .fox (XML) to the above mentioned types.
+
+Requirements
+	Microsoft .NET Framework 4.5
